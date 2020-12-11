@@ -1,0 +1,20 @@
+Assignment 2 Report
+
+Name: Sajal Kumar Goel
+
+1. Describe how you evaluated your baseline and advanced features:
+
+I segregated the data set into 2 parts - 75% of csv is used to train the model and 25% of csv files is used as development data. Then I passed the two directories in
+python files as training and testing directory.
+
+2. Accuracy of baseline features during your evaluation: 72.56381441643924 %
+
+3. Describe your advanced feature set:
+
+Advanced feature set includes the feature for whether or not the speaker has changed, a feature of every token in utterance, a feature of every 
+part of speech in utterance, feature denoting bigrams for every token in the utterance, feature denoting trigrams for every token in utterance, 
+feature for part of speech tags for bigrams and a feature for part of speech tags for trigrams in utterance.
+
+4. If you tried and rejected alternate advanced feature sets, please describe them: Nil
+
+5. Accuracy of advanced features was: 73.78792743618558 % 
